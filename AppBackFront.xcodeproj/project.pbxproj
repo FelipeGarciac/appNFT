@@ -38,6 +38,7 @@
 		A5B9C5862AE7572D00C173A2 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A5B9C5852AE7572D00C173A2 /* FirebaseRemoteConfigSwift */; };
 		A5B9C5882AE7572D00C173A2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A5B9C5872AE7572D00C173A2 /* FirebaseStorage */; };
 		A5B9C58A2AE7572D00C173A2 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A5B9C5892AE7572D00C173A2 /* FirebaseStorageCombine-Community */; };
+		A5F417D92AF1D7EC00E7C5F6 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F417D82AF1D7EC00E7C5F6 /* AlertController.swift */; };
 		A5FD05282A6C99C000A2EA7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FD05272A6C99C000A2EA7F /* AppDelegate.swift */; };
 		A5FD052A2A6C99C000A2EA7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FD05292A6C99C000A2EA7F /* SceneDelegate.swift */; };
 		A5FD052C2A6C99C000A2EA7F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FD052B2A6C99C000A2EA7F /* LoginVC.swift */; };
@@ -50,6 +51,7 @@
 		A53AC9542AE895ED00EEEF9A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		A56C89052A6FE3C7003D692F /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		A5B9C5522AE7567D00C173A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A5F417D82AF1D7EC00E7C5F6 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		A5FD05242A6C99C000A2EA7F /* AppBackFront.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppBackFront.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FD05272A6C99C000A2EA7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5FD05292A6C99C000A2EA7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,14 @@
 			path = Screen;
 			sourceTree = "<group>";
 		};
+		A5F417D72AF1D7BF00E7C5F6 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				A5F417D82AF1D7EC00E7C5F6 /* AlertController.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		A5FD051B2A6C99C000A2EA7F = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +160,7 @@
 		A5FD05262A6C99C000A2EA7F /* AppBackFront */ = {
 			isa = PBXGroup;
 			children = (
+				A5F417D72AF1D7BF00E7C5F6 /* Alert */,
 				A53AC9502AE88F4D00EEEF9A /* Utils */,
 				A56E9D7E2AE6ACF0009D7781 /* Login */,
 				A5FD05272A6C99C000A2EA7F /* AppDelegate.swift */,
@@ -269,6 +280,7 @@
 				A56C89062A6FE3C7003D692F /* LoginScreen.swift in Sources */,
 				A5FD05282A6C99C000A2EA7F /* AppDelegate.swift in Sources */,
 				A53AC9532AE88F9C00EEEF9A /* UIViewController+Extension.swift in Sources */,
+				A5F417D92AF1D7EC00E7C5F6 /* AlertController.swift in Sources */,
 				A53AC9552AE895EE00EEEF9A /* String+Extension.swift in Sources */,
 				A5FD052A2A6C99C000A2EA7F /* SceneDelegate.swift in Sources */,
 			);
