@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50474142AF83B1D00D35CB4 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50474132AF83B1D00D35CB4 /* TabBarVC.swift */; };
+		A50474192AF83C0B00D35CB4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50474182AF83C0B00D35CB4 /* HomeVC.swift */; };
+		A504741C2AF84EF800D35CB4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A504741B2AF84EF800D35CB4 /* HomeScreen.swift */; };
 		A53AC9532AE88F9C00EEEF9A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AC9522AE88F9C00EEEF9A /* UIViewController+Extension.swift */; };
 		A53AC9552AE895EE00EEEF9A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AC9542AE895ED00EEEF9A /* String+Extension.swift */; };
 		A56C89062A6FE3C7003D692F /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C89052A6FE3C7003D692F /* LoginScreen.swift */; };
@@ -47,6 +50,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A50474132AF83B1D00D35CB4 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		A50474182AF83C0B00D35CB4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A504741B2AF84EF800D35CB4 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		A53AC9522AE88F9C00EEEF9A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		A53AC9542AE895ED00EEEF9A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		A56C89052A6FE3C7003D692F /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -99,6 +105,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A50474122AF83AC900D35CB4 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A50474132AF83B1D00D35CB4 /* TabBarVC.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		A50474152AF83B7D00D35CB4 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				A50474162AF83BB700D35CB4 /* Home */,
+				A56E9D7E2AE6ACF0009D7781 /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		A50474162AF83BB700D35CB4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A504741A2AF84ED600D35CB4 /* Screen */,
+				A50474182AF83C0B00D35CB4 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A504741A2AF84ED600D35CB4 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A504741B2AF84EF800D35CB4 /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		A53AC9502AE88F4D00EEEF9A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,9 +200,10 @@
 		A5FD05262A6C99C000A2EA7F /* AppBackFront */ = {
 			isa = PBXGroup;
 			children = (
+				A50474152AF83B7D00D35CB4 /* Feature */,
+				A50474122AF83AC900D35CB4 /* TabBarController */,
 				A5F417D72AF1D7BF00E7C5F6 /* Alert */,
 				A53AC9502AE88F4D00EEEF9A /* Utils */,
-				A56E9D7E2AE6ACF0009D7781 /* Login */,
 				A5FD05272A6C99C000A2EA7F /* AppDelegate.swift */,
 				A5FD05292A6C99C000A2EA7F /* SceneDelegate.swift */,
 				A5FD05302A6C99C700A2EA7F /* Assets.xcassets */,
@@ -276,12 +317,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50474192AF83C0B00D35CB4 /* HomeVC.swift in Sources */,
 				A5FD052C2A6C99C000A2EA7F /* LoginVC.swift in Sources */,
 				A56C89062A6FE3C7003D692F /* LoginScreen.swift in Sources */,
 				A5FD05282A6C99C000A2EA7F /* AppDelegate.swift in Sources */,
 				A53AC9532AE88F9C00EEEF9A /* UIViewController+Extension.swift in Sources */,
 				A5F417D92AF1D7EC00E7C5F6 /* AlertController.swift in Sources */,
+				A504741C2AF84EF800D35CB4 /* HomeScreen.swift in Sources */,
 				A53AC9552AE895EE00EEEF9A /* String+Extension.swift in Sources */,
+				A50474142AF83B1D00D35CB4 /* TabBarVC.swift in Sources */,
 				A5FD052A2A6C99C000A2EA7F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
